@@ -11,7 +11,7 @@ import getpass
 username = getpass.getuser()
 os.mkdir("C:\\Users\\" + username + "\\Desktop\\" + "Unorganized")
 sourceRootFolder = "C:\\Users\\" + username + "\\Desktop\\" + "Unorganized"
-targetRootFolder = sourceRootFolder + '\\ALICIAS_SORTED_PICS'
+targetRootFolder = sourceRootFolder + '\\'+ username + "'s_" + 'Organized_Pics'
 input("Put all of your pics in the 'Unorganized' folder that just appeared "
       "on the desktop and press 'ENTER'\n")
 
